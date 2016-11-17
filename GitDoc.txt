@@ -19,7 +19,4 @@ Merge yourbranch to master branch:
 2) git status 
 3) git merge nameOfBranch
 4) git commit -a -m 'changes 6'
-
-
-5) git add .
-5) git commit -m
+5) git push origin master
