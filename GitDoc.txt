@@ -1,0 +1,25 @@
+Pre-req:
+Download Git bash:
+Create a local folder to store git stuff.
+
+In the bash,
+1) go to the folder you just created.
+2) git init
+3) git remote
+4) git clone https://github.com/vishnuAt92/OurAmazon.git
+
+Branching:
+1) git branch nameOfBranch
+2) git checkout nameOfBranch
+3) git add .
+4) git commit -m 'new updates'
+
+Merge yourbranch to master branch:
+1) git checkout master
+2) git status 
+3) git merge nameOfBranch
+4) git commit -a -m 'changes 6'
+
+
+5) git add .
+5) git commit -m
