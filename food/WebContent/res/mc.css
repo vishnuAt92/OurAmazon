@@ -1,0 +1,87 @@
+body{
+	margin:0;
+}
+
+header{
+	background:black;
+	color:white;
+	padding:20px 
+}
+
+header h1{
+	margin:0;
+	display:inline;
+}
+
+nav ul{
+	margin:0;
+	display:inline;
+}
+
+nav ul li{
+	display: inline-block;
+	color:white;
+	list-style-type:none;
+	margin:5px 35px;
+}
+
+nav ul li a{
+	color:white;
+}
+
+.row:after{
+	clear:both;
+	content:"";
+	display:table;
+}
+
+.col{
+	background:#333;
+	border-radius: 5px;
+	color:white;
+	padding:10px .5%;
+	float:left;
+	margin:.5%;
+	width:31%;
+}
+
+footer{
+	clear:both;
+	background:black;
+	color:white;
+	padding:20px 
+}
+
+hr {
+	background:black;
+	color:yellow;
+	display:inline;
+	width:10%;
+	margin:20%;
+    
+}
+.glyphicon glyphicon-copyright-mark{
+	padding-right:5px;
+	margin: 5px;
+}
+
+.expressOrder{
+	display: block;
+	margin-left:20px;
+}
+#express_order{
+	margin-top: 80px;
+}
+#express{
+	text-align: center;
+	background: grey;
+	height:513px;
+}
+#update{
+	background-color: grey;
+	height:520px;
+}
+#login{
+	background-color: grey;
+	height:520px;
+}

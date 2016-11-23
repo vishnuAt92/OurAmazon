@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+	<jsp:directive.page contentType="text/html; charset=UTF-8"
+		pageEncoding="UTF-8" session="false" />
+	<jsp:output doctype-root-element="html"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+		omit-xml-declaration="true" />
+	<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Header</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous" />
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="Home.jspx">
+				<H1>Food R Us</H1>
+			</a>
+			<ul>
+				<li><a href="Home.jspx">Home</a></li>
+				<li><a href="#news">Catalogs</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#about">About Us</a></li>
+			</ul>
+			<form class="navbar-form navbar-right" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control" placzeholder="Search"></input>
+				</div>
+				<button type="submit" class="btn btn-default">Search</button>
+			</form>
+		</nav>
+	</header>
+</body>
+	</html>
+</jsp:root>

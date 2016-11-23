@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:f="http://java.sun.com/jsp/jstl/fmt" version="2.0">
+	<jsp:directive.page contentType="text/html; charset=UTF-8"
+		pageEncoding="UTF-8" session="false" />
+	<jsp:output doctype-root-element="html"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+		omit-xml-declaration="true" />
+	<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Food R Us</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="StyleSheet"
+	href="${pageContext.request.contextPath}/res/mc.css" type="text/css"
+	title="cse4413" media="screen, print" />
+<link rel="StyleSheet"
+	href="${pageContext.request.contextPath}/res/slider.css"
+	type="text/css" title="cse4413" media="screen, print" />
+<script type="text/javascript" src="res/mc.js">
+	hi
+</script>
+</head>
+<body>
+	<header>
+		<div class="head">
+			<div class="navbar-form navbar-top">
+				<img class="img-rounded" src="res/logo.png" width="150" height="50"></img>
+				<!-- why do u need a form here?? -->
+				<form class="navbar-form navbar-right" role="search">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search"></input>
+					</div>
+					<button type="submit" class="btn btn-default">Search</button>
+					<br /> <br /> <a
+						href="${pageContext.request.contextPath}/Express">Express
+						Order</a>
+				</form>
+			</div>
+		</div>
+		<div class="navbar-form navbar-bottom">
+			<nav>
+				<H1>Food R Us</H1>
+				<ul>
+					<li><a href="Home.jspx">Home</a></li>
+					<li><a href="${pageContext.request.contextPath}/Catalog">Catalogs</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="#about">About Us</a></li>
+				</ul>
+			</nav>
+			<div class="navbar-form navbar-right">
+				<a href="${pageContext.request.contextPath}/Cart">Cart</a> | <a
+					href="${pageContext.request.contextPath}/Login">Sign
+					In/Register</a>
+			</div>
+		</div>
+	</header>
+	<div id="login">
+		<br />
+		<hr size="1px" width="700px" />
+		<br />
+		<form method="POST" action="">
+			<table cellpadding="0" cellspacing="5" class="mainTextStyle"
+				align="center">
+				<tr>
+					<td><strong>Login</strong></td>
+				</tr>
+				<tr>
+					<td><label> Account Number: <input size="20"
+							name="account" type="text" /></label></td>
+				</tr>
+				<tr>
+					<td><label> PIN: <input size="20" name="pin"
+							type="password" /></label></td>
+				</tr>
+				<tr>
+					<td><input value="Login" name="login" type="submit" /></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<footer>
+		Copyright <span class="glyphicon glyphicon-copyright-mark"
+			aria-hidden="true"></span> 2016. Food R Us. All rights reserved.
+	</footer>
+</body>
+	</html>
+</jsp:root>

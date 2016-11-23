@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Foods R US</title>
+<link type="text/css" rel="stylesheet" href="styles/efstyle.css" />
+<link type="image/gif" href="favicon.ico" rel="shortcut icon" />
+</head>
+<body>
+	<table cellspacing="0" cellpadding="0" align="center" border="0"
+		width="848">
+		<tr>
+			<td colspan="4"><img style="display: block" usemap="#Map3"
+				vspace="0" hspace="0" border="0" height="77" width="848"
+				alt="header" src="images/topheader.jpg" /></td>
+		</tr>
+		<tr>
+			<td class="leftTableSpacer" valign="top" align="left" rowspan="3"
+				width="14"><img height="23" width="14" alt="left spacer"
+				src="images/leftspacer.jpg" /></td>
+			<td class="signinRender" valign="top" align="left" height="22"
+				width="365"><img align="left" border="0" vspace="0" hspace="0"
+				height="22" width="14" alt="leftsignin spacer"
+				src="images/leftsignin.jpg" />
+			<table width="340px">
+					<tr>
+						<td><div class="signinText">
+								<a class="signinLink" href="Login">Sign In</a>
+							</div></td>
+					</tr>
+				</table></td>
+			<td class="accountRender" valign="top" align="right" width="364"><form
+					action="Checkout" method="POST"
+					style="padding: 0 0 0 0; margin: 0 0 0 0;">
+					<a href="Cart"><img align="absbottom" border="0" vspace="0"
+						hspace="0" height="22" width="45" alt="cart" src="images/cart.jpg" /></a><img
+						align="absbottom" border="0" vspace="0" hspace="0" height="22"
+						width="10" alt="pipe" src="images/pipe.jpg" /><input
+						align="middle" alt="Check Out" src="images/checkout.jpg"
+						style="display: inline-block;" type="image" /><img
+						align="absbottom" border="0" vspace="0" hspace="0" height="22"
+						width="10" alt="pipe" src="images/pipe.jpg" /><a href="Account"><img
+						align="absbottom" border="0" vspace="0" hspace="0" height="22"
+						width="82" alt="account" src="images/account.jpg" /></a>
+				</form></td>
+			<td class="rightTableSpacer" valign="top" align="left" rowspan="3"
+				width="105"><img height="14" width="105" alt="right spacer"
+				src="images/rightspacer.jpg" /></td>
+		</tr>
+		<tr class="centerTableBG">
+			<td valign="top" align="left"><table cellpadding="0"
+					cellspacing="0" border="0" width="100">
+					<tr>
+						<td><img border="0" vspace="0" hspace="0" height="13"
+							width="365" alt="" style="display: block" src="images/tabtop.jpg" /></td>
+					</tr>
+					<tr>
+						<td><img border="0" vspace="0" hspace="0" height="49"
+							width="365" alt="" style="display: block"
+							src="images/loginTitle.jpg" /></td>
+					</tr>
+				</table></td>
+			<td valign="top" align="left"><table class="formTableClass"
+					cellspacing="0" cellpadding="0" border="0" width="364">
+					<tr>
+						<td valign="bottom" align="right" colspan="2" height="11"><img
+							border="0" vspace="0" hspace="0" height="11" width="364"
+							style="display: block" src="images/searchtop.jpg" /></td>
+					</tr>
+					<tr>
+						<td><form class="formClass" method="get" action="Search">
+								<label><img align="absbottom" border="0" vspace="0"
+									hspace="0" height="30" width="61" src="images/searchleft.jpg" /></label><input
+									size="37" class="inputField" type="text" name="cat" /><input
+									alt="Search" src="images/searchbutton.jpg" type="image" />
+							</form></td>
+						<td valign="top" align="right"><img style="display: block"
+							border="0" vspace="0" hspace="0" height="30" width="12"
+							src="images/searchright.jpg" /></td>
+					</tr>
+					<tr>
+						<td valign="bottom" align="right" colspan="2" height="21"><img
+							style="display: block" usemap="#Map" border="0" vspace="0"
+							hspace="0" height="21" width="364" src="images/searchbottom.jpg" /></td>
+					</tr>
+				</table></td>
+		</tr>
+		<tr>
+			<td class="centerTableBG" colspan="2"><div class="mainTextStyle">
+					<a href="Browse">Go to Main Category Listing</a><br />
+					<br />
+					<hr size="1px" width="700px" />
+					<br />
+					<form method="POST" action="Login">
+						<table cellpadding="0" cellspacing="5" class="mainTextStyle"
+							align="center">
+							<tr>
+								<td><strong>Login</strong></td>
+							</tr>
+							<tr>
+								<td><label> Account Number: <input size="20"
+										name="account" type="text" /></label></td>
+							</tr>
+							<tr>
+								<td><label> PIN: <input size="20" name="pin"
+										type="password" /></label></td>
+							</tr>
+							<tr>
+								<td><input value="Login" name="login" type="submit" /></td>
+							</tr>
+						</table>
+					</form>
+				</div></td>
+		</tr>
+		<tr>
+			<td colspan="4" height="19"><img height="46" width="848"
+				alt="footer" src="images/footer.jpg" /></td>
+		</tr>
+	</table>
+	<map id="Map" name="Map">
+		<area alt="Express Order" href="Express" coords="116,2,202,17"
+			shape="rect" />
+		<area alt="Advanced Search" href="Search" coords="216,2,326,17"
+			shape="rect" />
+	</map>
+	<map id="Map3" name="Map3">
+		<area alt="Go to Home page" href="index.html" coords="54,-5,166,41"
+			shape="rect" />
+	</map>
+</body>
+</html>

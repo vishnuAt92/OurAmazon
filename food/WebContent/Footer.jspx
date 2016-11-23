@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+	<jsp:directive.page contentType="text/html; charset=UTF-8"
+		pageEncoding="UTF-8" session="false" />
+	<jsp:output doctype-root-element="html"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+		omit-xml-declaration="true" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<title>Footer</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet"
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+		crossorigin="anonymous" />
+	</head> 
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>About</h3>
+					<a href="index.html" class="a-btn a-block">The team</a><br/>
+					<a href="index.html" class="a-btn a-block">Contact us</a>
+				</div>
+	
+				<div class="col-sm-4">
+					<h3>Follow us</h3>
+					<a href="index.html" class="a-btn a-block">Twitter</a><br/>
+					<a href="index.html" class="a-btn a-block">Facebook</a>
+				</div>
+				<div class="col-sm-4">
+					<h3>Company</h3>
+					<a href="index.html" class="a-btn a-block">Terms of use</a><br/>
+					<a href="index.html" class="a-btn a-block">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+</jsp:root>
